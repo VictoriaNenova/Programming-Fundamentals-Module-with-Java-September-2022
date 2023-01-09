@@ -1,0 +1,29 @@
+Data Types and Variables
+
+P01 - Convert Meters to Kilometers - Write a program that converts meters to kilometers formatted to the second decimal point.
+
+P02 - Pounds to Dollars - Write a program that converts British pounds to US dollars formatted to the 3rd decimal point.
+1 British Pound = 1.36 Dollars
+
+P03 - Exact Sum of Real Numbers - Write a program to enter n numbers and calculate and print their exact sum (without rounding).
+
+P04 - Town Info - You will be given 3 lines of input. On the first line, you will be given the name of the town, on the second – the population, and on the third – the area. Use the correct data types and print the result in the following format:
+"Town {town name} has population of {population} and area {area} square km.".
+
+P05 - Concat Names - Read two names and a delimiter. Print the names joined by the delimiter. 
+
+P06 - Chars to String - Write a program that reads 3 lines of input. On each line, you get a single character. Combine all the characters into one string and print it on the console.
+
+P07 - Reversed Chars - Write a program that takes 3 lines of characters and prints them in reversed order with a space between them.
+
+P08 - Lower or Upper - Write a program that prints whether a given character is upper-case or lower-case.
+
+P09 - Centuries to Minutes - Write a program to enter an integer number of centuries and convert it to years, days, hours, and minutes.Assume that a year has 365.2422 days on average (the Tropical year).
+Example: 1 centuries = 100 years = 36524 days = 876581 hours = 52594877 minutes
+
+P10 - Special Numbers - A number is special when its sum of digits is 5, 7, or 11.
+Write a program to read an integer n and for all numbers in the range 1…n to print the number and if it is special or not (True / False).
+
+P11 - Refactor Volume of Pyramid - You are given a working code that finds the volume of a pyramid. However, you should consider that the variables exceed their optimum span and have improper naming. Also, search for variables that have multiple purposes.
+
+P12 - Refactor Special Numbers - You are given a working code that is a solution to Problem 9. Special Numbers. However, the variables are improperly named, declared before they are needed, and some of them are used for multiple things. Without using your previous solution, modify the code so that it is easy to read and understand.
