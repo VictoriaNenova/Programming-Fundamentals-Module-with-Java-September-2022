@@ -1,0 +1,67 @@
+                              Exercise Arrays
+
+     1. Train
+
+     You will be given a count of wagons in a train n. On the next n lines, you will receive how many people will get on that wagon. In the end, print the whole train and the sum of the people on the train.
+
+    2. Common Elements
+
+    Write a program that prints common elements in two arrays. You have to compare the elements of the second array to the elements of the first.
+
+   3. Zig-Zag Arrays
+
+    Write a program that creates 2 arrays. You will be given an integer n. On the next n lines, you get 2 integers. Form 2 arrays as shown below.
+
+   4. Array Rotation
+
+    Write a program that receives an array and the number of rotations you have to perform (the first element goes at the end). Print the resulting array.
+
+    5. Top Integers
+
+    Write a program to find all the top integers in an array. A top integer is an integer that is bigger than all the elements to its right.
+
+    6. Equal Sums
+
+       Write a program that determines if an element exists in the array such that the sum of the elements on its left is equal to the sum of the elements on its right. If there are no elements to the left/right, their sum is considered to be 0. Print the index that satisfies the required condition or "no" if there is no such index.
+
+    7. Max Sequence of Equal Elements
+
+      Write a program that finds the longest sequence of equal elements in an array of integers. If several longest sequences exist, print the leftmost one.
+Example 
+      Input:  2 1 1 2 3 3 2 2 2 1       Output: 2 2 2 
+
+    8. Magic Sum
+
+      Write a program that prints all unique pairs in an array of integers whose sum is equal to a given number.
+Example
+   Input : 1 7 6 2 19 23  <- array of integers       Output : 1 7
+	   8 <-	this is the magic number		      6 2
+  
+    9. Array Modifier
+
+        You are given an array with integers. Write a program to modify the elements after receiving the following commands:
+        · "swap {index1} {index2}" takes two elements and swap their places.
+        · "multiply {index1} {index2}" takes the element at the 1st index and multiplies it with the element at 2nd index. Save the product at the 1st index.
+        · "decrease" decreases all elements in the array with 1.
+
+
+     10. Treasure Hunt 
+
+The pirates must safely carry a treasure chest back to the ship, looting along the way.
+        1.Create a program that manages the state of the treasure chest along the way
+         read a String array  with the initial loot of the treasure chest, a string of items separated by "|"
+        you end the treasure hunt when command is "Yohoho!" , until then you keep looting
+        2.the commands can be:
+         - "Loot {item1}{item2}..{itemN}";
+               ~pick up treasure loot along the way, insert the items at the beginning of the chest
+               ~if an item is already contained, don't insert it
+        
+         - "Drop {index}"
+               ~ remove the loot at the given position and add it to the end of the treasure chest
+               ~ if the index is invalid, skip the command
+         - "Steal {count}"
+               ~ remove the last 3 items from the chest and print them
+         3.In the end calculate the average treasure gain which is the sum of all items length divided by the count of all items inside the chest formatted to the second decimal point:    "Average treasure gain: {averageGain} pirate credits."
+
+If the chest is empty, print the following message:   "Failed treasure hunt."
+        
